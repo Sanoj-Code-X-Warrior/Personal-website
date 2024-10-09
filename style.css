@@ -1,0 +1,260 @@
+/* Boilerplate */
+@font-face {
+    font-family: 'Gilroy';
+    src: url(Gilroy-ExtraBold\ 800.ttf) format(true);
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy,sans-serif;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+/* Nvabar Start */
+.nav{
+   
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    padding-right: 200px;
+    font-size: large;
+}
+.nav h3 a{
+    text-decoration: none;
+    color: white;
+}
+.page2{
+    display: flex;
+   gap: 100px;
+}
+.page2 h3 a{
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 2s ease;
+}
+.page2 h3 a:hover{
+    border-bottom: 3px solid white;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.light-mode{
+    background-color: white;
+    color: black;
+}
+.light-mode .nav h3 a{
+    background-color: white;
+    color: black;
+}
+.light-mode .page2 h3 a{
+    border-bottom: 2px solid transparent;
+}
+.light-mode .nav h3 a:hover{
+    border-bottom: 2px solid black;
+}
+/* Navbar End */
+
+
+/* Home Start */
+
+.home{
+    height: 500px;
+    width: 100%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.myImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.line1{
+    text-align: center;
+}
+.line2{
+    text-align: center;
+    font-size: 50px;
+}
+.line3{
+    text-align: center;
+    font-size: 50px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.mybtn{
+    height: 50px;
+    width: 150px;
+    font-size: 1,2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.mybtn:hover{
+    background-color: wheat;
+    cursor: pointer;
+}
+.light-mode .mybtn{
+    background-color: black;
+    color: white;
+}
+
+/* Project Section */
+
+.projects{
+    height: 480px;
+    width: 100%;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+.boxes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    height: 380px;
+    width: 320px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.box .ecommerce{
+    height: 140px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.box:hover {
+    transform: scale(1.1);
+}
+.box h3{
+    margin-top: 10px;
+}
+.light-mode .projects{
+    background-color: white;
+    color: black;
+}
+.light-mode .box{
+    border: 2px solid black;
+}
+.light-mode .ecommerce{
+    border: 2px solid black;
+}
+.skills{
+    height: 580px;
+    width: 100%;
+    margin-top: 40px;
+}
+.images{
+    display: flex;
+}
+.images1{
+    display: flex;
+    gap: 240px;
+    margin-top: 30px;
+    
+}
+.html{
+    margin-top: 30px;
+}
+.html1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 720px;
+}
+.css1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.javascript1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.nodejs1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.mongoDb1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.java1{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.light-mode .skills{
+    background-color: white;
+    color:black;
+}
+
+/* Contact Start  */
+
+.contact{
+    height: 520px;
+    width: 100%;
+   
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.form input {
+    height: 50px;
+    width: 480px;
+    border-radius: 10px;
+   margin-left: 600px;
+   border: none;
+}
+.form label{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 600px;
+
+}
+.form textarea{
+    height: 70px;
+    width:400px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    border: none;
+}
+.form .btnSubmit{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 600px;
+}

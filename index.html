@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation Start -->
+    <div class="nav">
+        <h1>SANOJ JAISWAR</h1>
+        <div class="page2">
+            <h3><a href="#">Home</a></h3>
+            <h3><a href="#projects">Projects</a></h3>
+            <h3><a href="#skills">Skills</a></h3>
+            <h3><a href="#">Contact Me</a></h3>
+            <h2 id="dark-mode"><i class="fa-solid fa-moon"></i></h2>
+        </div>
+    </div>
+    <!-- Navigation End -->
+
+    <div class="home" id="home">
+        <div class="image">
+            <img src="Sanoj.jpg" class="myImage" />
+        </div>
+        <div class="lines">
+            <div class="line1">
+                <h2>Hii , I'am Sanoj</h2>
+            </div>
+            <div class="line2">
+                <h1>FRONT-END</h1>
+            </div>
+            <div class="line3">
+                <h1>WEB DEVELOPER</h1>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="mybtn">View Skills</button>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+
+
+    <div class="projects" id="projects">
+        <h1>Some Of My Recent Projects </h1>
+        <div class="boxes">
+            <div class="box">
+                <img src="E-Commerce.jpg.png" class="ecommerce">
+                <h3>E-COMMERCE WEBSITE <br>(G-MART)</h3>
+                <h2><a href="#">Check it out</a></h2>
+            </div>
+            <div class="box">
+                <img src="My portfolio.jpg.png" class="ecommerce">
+                <h3>PORTFOLIO WEBSITE</h3>
+                <h2><a href="#">Check it out</a></h2>
+            </div>
+            <div class="box">
+                <img src="Login Admin.jpg.png" class="ecommerce">
+                <h3> LOGIN ADMIN PANEL</h3>
+                <h2><a href="#">Check it out</a></h2>
+            </div>
+        </div>
+        <!-- Project Section END-->
+
+        <!-- SKILLS SECTION -->
+
+
+        <div class="skills" id="skills">
+            <h1>SKILLS</h1>
+            <div class="images">
+                <div class="html">
+                    <img src="html.png" class="html1" />
+                </div>
+            </div>
+            <div class="images1">
+                <div class="css">
+                    <img src="css.png" class="css1" />
+                </div>
+                <div class="javascript">
+                    <img src="javascript.jpg" class="javascript1" />
+                </div>
+                <div class="nodejs">
+                    <img src="nodejs.png" class="nodejs1" />
+                </div>
+                <div class="mongoDb">
+                    <img src="mongDb.png" class="mongoDb1" />
+                </div>
+                <div class="java">
+                    <img src="java.png" class="java1" />
+                </div>
+            </div>
+        </div>
+
+        <!-- SKILLS SECTION END-->
+
+        <!-- CONTACT SECTION  START-->
+         <div class="contact">
+            <h1>Contact Me</h1>
+            <form  id="myForm">
+                <div class="form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Name" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Email" id="email">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="message"></textarea>
+                    <button class="btnSubmit">Submit</button>
+                </div>
+            </form>
+         </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
